@@ -1,22 +1,23 @@
-**Project Background
-**
+Project Background
+
 Amazon is an E-commerce company which sells a variety of products worldwide via its website and mobile app. 
 
 The company has attempted to increase its delivery time, since it often receives complaints about late delivery from customers. This project thoroughly analyzes the shipments of Amazon in order to uncover the cause of late delivery to improve Amazon’s customer satisfaction. 
 
-**Data Structure Overview
-**
+Data Structure Overview
+
 Amazon’s database structure consists of one table, with a total row count of 180,519 records. 
 
  
 
-**Overview of Findings
-**The two factors affecting Late delivery are Shipping Mode and Product Category. The shipping mode which causes most delays is the Second Class shipping mode. The 5 most delayed product categories are: Soccer, Crafts, Basketball, Fitness Accessories, and Boxing & MMA. The shipping mode shows a clear relationship with late delivery. Second class shipping mode shows significantly higher late shipment than the other modes. 
+Overview of Findings
+The two factors affecting Late delivery are Shipping Mode and Product Category. The shipping mode which causes most delays is the Second Class shipping mode. The 5 most delayed product categories are: Soccer, Crafts, Basketball, Fitness Accessories, and Boxing & MMA. The shipping mode shows a clear relationship with late delivery. Second class shipping mode shows significantly higher late shipment than the other modes. 
 
 
 
-**Insights deep dive:
-**We performed the relationships among late delivery and order region, order country, shipping mode, and category name using Chi-square method. We find that there is no relationship between late delivery and order region and order country, yet there is a strong relation between late delivery and shipping mode and category name. 
+Insights deep dive:
+
+We performed the relationships among late delivery and order region, order country, shipping mode, and category name using Chi-square method. We find that there is no relationship between late delivery and order region and order country, yet there is a strong relation between late delivery and shipping mode and category name. 
 
 For shipping mode, the second class has the highest late delivery rate, following up with the First Class and the Same Day. The Standard Class has almost no late delivery. 
 
@@ -38,8 +39,8 @@ There may be supply chain bottlenecks, inventory management issues, or carrier-r
 High demand and inventory stock outs delaying dispatch times.
 Warehousing constraints impacting order fulfillment speed.
 
-**Recommendation:
-**
+Recommendation:
+
 Based on the uncovered insights, the following recommendations have been provided:
 	With the highest late shipment rate for the Second Class, customers should be recommended to choose Same Day or Standard Class for the best experience. 
 	Cut down on budget allocation for Second Class shipment and invest more on the Same Day or Standard Class.
